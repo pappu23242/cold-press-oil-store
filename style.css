@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #fafafa;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 40px 20px;
+  background: lightblue;
+  transform: scale(1.05);
+  
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+.filters {
+  text-align: center;
+  padding: 20px;
+}
+
+.filters button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background: #1e7f4d;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.product-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+.product-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin: 15px 0;
+}
+
+.subscription {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.product-card button {
+  background: #1e7f4d;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reviews {
+  background: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.review {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e7f4d;
+  color: #fff;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cold Press Oil Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>PureDrop Oils</h1>
+  <p>100% Natural Cold Pressed Oils</p>
+</header>
+
+<section class="filters">
+  <button onclick="filterProducts('all')">All</button>
+  <button onclick="filterProducts('mustard')">Mustard Oil</button>
+  <button onclick="filterProducts('coconut')">Coconut Oil</button>
+  <button onclick="filterProducts('groundnut')">Groundnut Oil</button>
+</section>
+
+<section class="products" id="productList">
+
+  <div class="product-card mustard">
+    <img src="./image/oil.png" alt="Mustard Oil">
+    <h3>Cold Press Mustard Oil</h3>
+    <p>₹499 / Litre</p>
+
+    <select class="subscription">
+      <option>One-time purchase</option>
+      <option>Weekly Subscription</option>
+      <option>Monthly Subscription</option>
+    </select>
+
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product-card coconut">
+    <img src="./image/oil.png" alt="Coconut Oil">
+    <h3>Cold Press Coconut Oil</h3>
+    <p>₹699 / Litre</p>
+
+    <select class="subscription">
+      <option>One-time purchase</option>
+      <option>Weekly Subscription</option>
+      <option>Monthly Subscription</option>
+    </select>
+
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product-card groundnut">
+    <img src="./image/oil.png" alt="Groundnut Oil">
+    <h3>Cold Press Groundnut Oil</h3>
+    <p>₹599 / Litre</p>
+
+    <select class="subscription">
+      <option>One-time purchase</option>
+      <option>Weekly Subscription</option>
+      <option>Monthly Subscription</option>
+    </select>
+
+    <button>Add to Cart</button>
+  </div>
+
+</section>
+
+<section class="reviews">
+  <h2>Customer Reviews</h2>
+
+  <div class="review">
+    ⭐⭐⭐⭐⭐
+    <p>Pure and authentic taste. Highly recommended!</p>
+    <span>- Ramesh K.</span>
+  </div>
+
+  <div class="review">
+    ⭐⭐⭐⭐☆
+    <p>Great packaging and timely delivery.</p>
+    <span>- Neha S.</span>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 PureDrop Oils | Healthy Living</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
